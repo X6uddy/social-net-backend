@@ -1,7 +1,9 @@
-import Router from 'express';
+const Router = require('express');
+const router = new Router();
+// import Router from 'express';
 // const {body} = require('express-validator');
 
-const router = Router.Router();
+// const router = Router.Router();
 
 // router.post('/registration', 
 //             body('email').isEmail(),
