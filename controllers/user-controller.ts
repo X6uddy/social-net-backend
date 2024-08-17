@@ -22,8 +22,7 @@ class UserController {
 
     async login(req: Request, res: Response, next: NextFunction) {
         try {
-            const {id, brand} = req.body;
-            console.log(req, 'rea.body: ', id)
+            console.log(req.headers);
             // const userData = await UserService.login(email, password);
             // res.cookie('refreshToken', userData.refreshToken, {maxAge: 30*24*60*60*1000, httpOnly: true});
             return res.json({user: 'sasha'});
